@@ -39,7 +39,7 @@ fun WearApp(greetingName: String) {
     Practica3_200527Theme {
         /* If you have enough items in your list, use [ScalingLazyColumn] which is an optimized
          * version of LazyColumn for wear devices with some added features. For more information,
-         * see d.android.com/wear/compose.
+         * see d.android.com/wear/compose.h
          */
         Column(
                 modifier = Modifier
