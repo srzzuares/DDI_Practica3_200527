@@ -5,7 +5,7 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">My primera APP,\ Wearables_200527, \n Detecto que estas en
-    un SmarthWatch Cuadrado!</string>
+    un SmarthWatch Cuadrado! \n Hola Mundo!!!</string>
     <string name="tile_label">Example tile</string>
     <string name="title_activity_presentation._main">presentation.MainActivity</string>
     <string name="title_activity_main">MainActivity</string>

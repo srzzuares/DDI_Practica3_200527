@@ -6,11 +6,8 @@
 
 package mx.edu.utxj.ti.idgs.ddi.practica3_200527.presentation
 
-import android.animation.AnimatorSet
-import android.animation.ArgbEvaluator
-import android.animation.ObjectAnimator
+
 import android.os.Bundle
-import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -20,7 +17,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Devices
@@ -37,29 +33,6 @@ class MainActivity : ComponentActivity() {
             WearApp("Android")
         }
     }
-/*
-    val textView = findViewById<TextView>(R.id.textView)
-    textView.setOnClickListener {
-        // Crear la animación de brillo
-        val scaleX = ObjectAnimator.ofFloat(textView, "scaleX", 1.0f, 1.2f, 1.0f)
-        val scaleY = ObjectAnimator.ofFloat(textView, "scaleY", 1.0f, 1.2f, 1.0f)
-        val animatorSet = AnimatorSet()
-        animatorSet.playTogether(scaleX, scaleY)
-        animatorSet.duration = 3000
-        animatorSet.start()
-
-
-        val colorAnim: ObjectAnimator = ObjectAnimator.ofInt(
-            textView, "textColor",
-            Color.RED, Color.GREEN
-        )
-        colorAnim.setEvaluator(ArgbEvaluator())
-        colorAnim.duration=5000
-        colorAnim.start()
-
-    }
-*/
-
 
 }
 
