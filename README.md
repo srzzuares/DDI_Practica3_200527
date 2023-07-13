@@ -3,7 +3,7 @@
 ### Desarrollo de Dispositivos inteligentes 
 
 
-#### Practica #4 de Wearables tipo Cuadrado y redondos imprimiendo "Hola Mundo!!!"
+#### Practica #3 de Wearables tipo Cuadrado y redondos imprimiendo "Hola Mundo!!!"
 
 
 ___Crystian Enrique Suarez Cuevas M-200527___
